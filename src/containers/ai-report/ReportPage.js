@@ -187,7 +187,7 @@ const ReportPage = () => {
                         className="report-button"
                         onClick={handleDownload}
                         style={{
-                          width: "700px",
+                          width: "100%",
                           height: "60px",
                           color: "black",
                           fontWeight: 600,
