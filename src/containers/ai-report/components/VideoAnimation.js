@@ -10,7 +10,7 @@ const VideoAnimation = ({ onAnimationEnd }) => {
   };
 
   return (
-    <div style={{ display: isPlaying ? 'block' : 'none', width: '100vw', height: '100vh', overflow: 'hidden', zIndex: 9999 }}>
+    <div style={{ display: isPlaying ? 'block' : 'none', width: '100vw', height: '105vh', overflow: 'hidden', zIndex: 9999 }}>
       <video
         src="image/loading.mp4" 
         autoPlay
